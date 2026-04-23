@@ -25,89 +25,69 @@
 
 <hr />
 
-<h2 id="about">🚀 About Traviora</h2>
+## 🚀 The Problem Statement
 
-**Traviora** is an innovative and visually stunning travel application designed to help wanderlust explorers discover, organize, and manage their trips seamlessly. From curating breathtaking destinations to crafting perfect daily itineraries, Traviora brings your travel dreams to life with a fluid user experience.
+The traditional travel planning process is often overwhelming and fragmented. Key challenges include:
+- **Fragmented Tools**: Travelers have to juggle multiple disconnected platforms—using separate websites for flight and hotel bookings, spreadsheets to organize itineraries, and notes apps to save places.
+- **Stressful Planning**: The friction and confusion of managing multiple resources take the joy out of planning a vacation.
+- **Lack of Inspiration**: Many existing tools offer rigid, uninspiring interfaces that fail to capture the excitement of travel.
+- **Scattered Itineraries**: Keeping track of day-by-day plans, maps, and schedules is often chaotic without a unified system.
 
-<br />
+## 💡 Our Solution: Traviora
 
-<h2 id="problem-statement">🎯 Problem Statement</h2>
+Traviora transforms the travel experience by creating a seamless, centralized, and visually stunning ecosystem for all your trip planning needs.
 
-Planning a trip is often an overwhelming experience. Travelers have to juggle multiple disconnected platforms—using separate websites for flight and hotel bookings, spreadsheets to organize itineraries, and notes apps to save places they want to visit. This fragmented approach creates friction, causes confusion, and takes the fun out of travel planning.
+### 1. Interactive Discovery
+Easily explore breathtaking destinations around the world. Our interactive interface makes discovering your next vacation spot an engaging and visually rich experience.
 
-<br />
+### 2. Smart Itinerary Planner
+Organize your trip day-by-day seamlessly. Traviora provides a centralized space to manage all your schedules, keeping everything organized in one intuitive dashboard.
 
-<h2 id="solution">💡 How I Solve It</h2>
+### 3. Beautiful UI/UX
+Built for maximum engagement, Traviora features a visually rich design. With fully optimized Light & Dark mode aesthetics, planning your trip is as enjoyable as the journey itself.
 
-**Traviora** bridges this gap by offering an all-in-one, intuitive platform. It consolidates the destination discovery and itinerary planning into a single, seamless user interface. With the smart itinerary planner, users can easily organize their trips day-by-day, explore top locations, and keep everything centralized. By focusing on a highly visual and engaging design, Traviora turns the stressful planning phase into a delightful part of the travel experience.
+### 4. High Performance
+Enjoy smooth, accessible, and fast loading speeds. The platform is optimized to ensure a frustration-free experience, no matter how complex your itinerary is.
 
-<br />
+### 5. Safety Module
+- **Risk Assessment**: Area safety scores, risk zones, and safety context based on time and locality.
+- **Secure Navigation**: Safe-route suggestions and an always-visible SOS action.
 
-<h2 id="design">🎨 UI Design & Prototype</h2>
+### 6. PowerSpot Module
+- **Charging Stations**: Locate nearby charging points with filters by distance, availability, and outlet type.
+- **Quick Routing**: Instant navigation to your selected charging point.
 
-Check out the high-fidelity design and interactive prototype that shapes the user experience of Traviora.
+### 7. MediTrust Module
+- **Reliable Healthcare**: Find trusted doctor and hospital listings with transparent consultation fee ranges.
+- **Smart Filters**: Search by specialty, language, and open-now status.
 
-<p align="left">
-  <a href="https://www.figma.com/proto/OQwbFNggqCJZdl7C6mybOS/figma?node-id=5728-3238&p=f&viewport=143%2C525%2C0.04&t=Uwv0mAhpjqdFqhSa-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=5726%3A2038&page-id=5691%3A2" target="_blank">
-    <img src="https://img.shields.io/badge/View_in_Figma-191919?style=for-the-badge&logo=figma&logoColor=F24E1E" alt="View Figma Design" />
-  </a>
-</p>
+### 8. MenuLens Module
+- **Smart Scanning**: Menu scan/upload workflow with automatic translation of dish names.
+- **Dietary Indicators**: Readily visible ingredient, allergen, and spice indicators.
 
-<br />
+### 9. LocalVibe Module
+- **Authentic Experiences**: Discovery of authentic local places with contextual recommendations and trust signals.
+- **Seamless Planning**: Easy save-to-trip planning flow for all your discoveries.
 
-<h2 id="features">✨ Key Features</h2>
+---
 
-- **🗺️ Interactive Destinations:** Easily explore top locations around the world.
-- **📅 Smart Itinerary Planner:** Organize your trip day-by-day seamlessly.
-- **🎨 Beautiful UI/UX:** A visually rich design built for maximum engagement.
-- **🌙 Theming Support:** Fully optimized Light & Dark mode aesthetics.
-- **⚡ Fast Performance:** Smooth, accessible, and fast loading speeds.
+## 👥 User Roles
 
-<br />
+- **Travelers**: Search for inspiring destinations, create custom itineraries, and easily manage day-by-day plans.
+- **Admin**: Ensure platform integrity, manage destination data, and oversee user engagement.
 
-<h2 id="tech-stack">🛠️ Tech Stack <small>(Suggested)</small></h2>
+---
 
-<p align="left">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node JS" />
-</p>
+## 🛠️ Tech Stack
 
-<br />
-
-<h2 id="getting-started">🏁 Getting Started</h2>
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-Make sure you have Node.js and NPM installed on your machine.
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/traviora.git
-   ```
-
-2. **Navigate into the directory:**
-   ```bash
-   cd traviora
-   ```
-
-3. **Install NPM packages:**
-   ```bash
-   npm install
-   ```
-
-4. **Run the development server:**
-   ```bash
-   npm run dev
-   ```
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+- **Backend**: Node.js + Express
+- **Language**: JavaScript
+- **Design**: [Figma Design](https://www.figma.com/proto/OQwbFNggqCJZdl7C6mybOS/figma?node-id=5728-3238&p=f&viewport=143%2C525%2C0.04&t=Uwv0mAhpjqdFqhSa-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=5726%3A2038&page-id=5691%3A2)
+- **Deployment**: Local Environment (npm run dev)
 
 <br />
-
-
 
 <p align="center">
   Made with ❤️ by <b>Chirag Prajapat</b>
