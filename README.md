@@ -1,4 +1,4 @@
-[<p align="center">
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Traviora&fontSize=80&animation=fadeIn&fontAlignY=35" alt="Traviora Banner" />
 </p>
 
@@ -16,11 +16,11 @@
 
 <p align="center">
   <a href="#about"><strong>About</strong></a> ·
+  <a href="#problem-statement"><strong>Problem Statement & Solution</strong></a> ·
   <a href="#design"><strong>Design Prototype</strong></a> ·
   <a href="#features"><strong>Features</strong></a> ·
   <a href="#tech-stack"><strong>Tech Stack</strong></a> ·
-  <a href="#getting-started"><strong>Getting Started</strong></a> ·
-  <a href="#contributing"><strong>Contributing</strong></a>
+  <a href="#getting-started"><strong>Getting Started</strong></a>
 </p>
 
 <hr />
@@ -28,6 +28,18 @@
 <h2 id="about">🚀 About Traviora</h2>
 
 **Traviora** is an innovative and visually stunning travel application designed to help wanderlust explorers discover, organize, and manage their trips seamlessly. From curating breathtaking destinations to crafting perfect daily itineraries, Traviora brings your travel dreams to life with a fluid user experience.
+
+<br />
+
+<h2 id="problem-statement">🎯 Problem Statement</h2>
+
+Planning a trip is often an overwhelming experience. Travelers have to juggle multiple disconnected platforms—using separate websites for flight and hotel bookings, spreadsheets to organize itineraries, and notes apps to save places they want to visit. This fragmented approach creates friction, causes confusion, and takes the fun out of travel planning.
+
+<br />
+
+<h2 id="solution">💡 How I Solve It</h2>
+
+**Traviora** bridges this gap by offering an all-in-one, intuitive platform. It consolidates the destination discovery and itinerary planning into a single, seamless user interface. With the smart itinerary planner, users can easily organize their trips day-by-day, explore top locations, and keep everything centralized. By focusing on a highly visual and engaging design, Traviora turns the stressful planning phase into a delightful part of the travel experience.
 
 <br />
 
@@ -95,26 +107,8 @@ Make sure you have Node.js and NPM installed on your machine.
 
 <br />
 
-<h2 id="contributing">🤝 Contributing</h2>
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<br />
-
-<h2 id="contact">📫 Contact</h2>
-
-**Chirag Prajapat** 
-- Portfolio: [chirag-portfolio03.netlify.app](https://chirag-portfolio03.netlify.app)
-- Resume: [chirag-portfolio03.netlify.app/resume](https://chirag-portfolio03.netlify.app/resume)
-
-<br />
 
 <p align="center">
   Made with ❤️ by <b>Chirag Prajapat</b>
-</p>](https://github.com/Chiragprajapat003/traviora.git)
+</p>
