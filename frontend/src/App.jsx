@@ -8,6 +8,7 @@ import CTA from './components/CTA';
 import Footer from './components/Footer';
 import PlaceholderPage from './pages/PlaceholderPage';
 import AuthPage from './pages/AuthPage';
+import OnboardingPage from './pages/OnboardingPage';
 
 // Landing page (Home)
 function HomePage() {
@@ -79,6 +80,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/get-started" element={<AuthPage />} />
+            <Route path="/onboarding" element={<OnboardingPage />} />
             <Route path="/destinations" element={<DestinationsPage />} />
             <Route path="/safety" element={<SafetyPage />} />
             <Route path="/community" element={<CommunityPage />} />
