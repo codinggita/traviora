@@ -7,6 +7,7 @@ import Trust from './components/Trust';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 import PlaceholderPage from './pages/PlaceholderPage';
+import AuthPage from './pages/AuthPage';
 
 // Landing page (Home)
 function HomePage() {
@@ -77,6 +78,7 @@ export default function App() {
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/get-started" element={<AuthPage />} />
             <Route path="/destinations" element={<DestinationsPage />} />
             <Route path="/safety" element={<SafetyPage />} />
             <Route path="/community" element={<CommunityPage />} />
