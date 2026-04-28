@@ -22,6 +22,12 @@ export default function AuthPage() {
 
   const isSignup = mode === 'signup';
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Navigate to onboarding after auth
+    navigate('/onboarding');
+  };
+
   return (
     <div className="min-h-screen relative flex items-center justify-center px-4 py-16 overflow-hidden">
       {/* Background image */}
@@ -98,7 +104,7 @@ export default function AuthPage() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
               transition={{ duration: 0.35 }}
-              onSubmit={(e) => e.preventDefault()}
+              onSubmit={handleSubmit}
               className="flex flex-col gap-4"
             >
               {/* Full Name — signup only */}
